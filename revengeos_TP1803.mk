@@ -5,8 +5,8 @@ TARGET_INCLUDE_STOCK_ARCORE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common LOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common revengeos stuff.
+$(call inherit-product, vendor/revengeos/config/common_full_phone.mk)
 
 # Inherit from TP1803 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -14,7 +14,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Nubia
 PRODUCT_DEVICE := TP1803
 PRODUCT_MANUFACTURER := Nubia
-PRODUCT_NAME := aosp_TP1803
+PRODUCT_NAME := revengeos_TP1803
 PRODUCT_MODEL := Mini 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-nubia
