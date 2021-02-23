@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_TP1803.mk
+    $(LOCAL_DIR)/dot_TP1803.mk
