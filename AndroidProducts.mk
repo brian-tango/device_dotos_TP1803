@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_TP1803.mk
+    $(LOCAL_DIR)/dot_TP1803.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_TP1803-user \
-    revengeos_TP1803-userdebug \
-    revengeos_TP1803-eng
+    dot_TP1803-user \
+    dot_TP1803-userdebug \
+    dot_TP1803-eng
