@@ -30,7 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.perf.iop_v3.enable=true
 
 # Media
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_PROPERTY_OVERRIDES += \o
     vendor.mm.enable.qcom_parser=63963135
 
 # Rescue Party
